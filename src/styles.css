@@ -1,0 +1,118 @@
+* {
+  font-family: "montseratt", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(to right, cornflowerblue, mediumaquamarine);
+}
+
+.container {
+  border-style: solid;
+  border-color: #282828;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  color: #282828;
+  background: -webkit-linear-gradient(cornflowerblue, mediumaquamarine);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input {
+  box-shadow: 0 0 0 0 #fff inset, grey 0 0 0 2px;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  appearance: none;
+  width: 80%;
+  position: relative;
+  border-radius: 3px;
+  padding: 9px 12px;
+  line-height: 1.4;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  height: 40px;
+  transition: all 0.2s ease;
+}
+input:hover {
+  box-shadow: 0 0 0 0 #fff inset, cornflowerblue 0 0 0 2px;
+}
+input:focus {
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0 #fff inset, cornflowerblue 0 0 0 3px;
+}
+
+button {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: 0;
+  display: flex;
+  font-weight: 400;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: cornflowerblue;
+  border-color: cornflowerblue;
+}
+
+button:hover {
+  color: #fff;
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+}
+
+.delete {
+  overflow-wrap: break-word !important;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: auto;
+  background-color: #dc143c;
+  color: white;
+  display: block;
+  border-color: #bd143c;
+  margin-left: 5px;
+}
+
+.delete:hover {
+  background-color: #bd143c;
+  color: white;
+  border-color: #dc143c;
+}
+
+.add-button {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.remove-button {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #dc143c;
+  border-color: #bd143c;
+  color: white;
+}
+
+.remove-button:hover {
+  background-color: #bd143c;
+  color: white;
+  border-color: #dc143c;
+}
+
+li {
+  overflow-wrap: anywhere;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  font-size: 22px;
+  text-align: left;
+}
